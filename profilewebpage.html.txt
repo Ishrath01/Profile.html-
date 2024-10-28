@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Simple Webpage</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f0f0;
+text-align: center;
+}
+
+.container {
+padding: 20px;
+
+}
+
+.profile-pic {
+width: 100px;
+border-radius: 50%;
+
+
+}
+
+h1 {
+font-size: 24px;
+color: #333;
+}
+
+p {
+color: #666;
+}
+
+.social-links a {
+margin: 0 10px;
+text-decoration: none;
+color: #ff0088;
+}
+
+.banner {
+background-color: #ffa500;
+color: white;
+padding: 10px;
+margin: 20px 0;
+}
+
+nav a {
+margin: 0 10px;
+text-decoration: none;
+color: #007bff;
+}
+
+
+</style>
+<body>
+<div class="container">
+<div class="profile-section">
+<center> <img src="C:\Users\IS001072193\Desktop\html\profile.jpeg" alt="Profile Picture" class="profile-pic"></center>
+<center><h1>I'm Ishrath Anjum Shaik</h1>
+<p>I'm a Web Developer Learner</p>
+<p>Learning HTML, CSS, Bootstrap, JavaScript, React, Angular, Node.js</p>
+</center>
+</div>
+<center>
+<div class="social-links">
+<a href="#"><i class="fab fa-instagram"></i>Instagram</a> |
+<a href="#"><i class="fab fa-facebook"></i>Facebook</a> |
+<a href="#"><i class="fab fa-youtube"></i>YouTube</a>
+</div>
+
+<div class="banner">
+<h2>NEVER STOP LEARNING</h2>
+</div>
+
+<nav>
+<a href="#">Skills</a>
+<a href="#">Experience</a>
+<a href="#">Education</a>
+<a href="#">Achievements</a>
+<a href="#">Contact</a>
+</center>
+</nav>
+</div>
+</body>
+</html>
+
+
